@@ -3,13 +3,16 @@ package com.client.binance.entity;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @RequiredArgsConstructor
+@ToString
 public class SocketData {
     @Getter
     @Setter
     private final String e;
-    private final long T;
+    @Getter
+    private final Long T;
     @Getter
     @Setter
     private final String s;

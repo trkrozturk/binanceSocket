@@ -10,8 +10,8 @@ public class BinanceApplication {
 
         WSClient wsClient = new WSClient();
         wsClient.webSocketClient();
-        ScheduledWorks scheduledWorks = new ScheduledWorks();
-        scheduledWorks.start();
+        //ScheduledWorks scheduledWorks = new ScheduledWorks();
+      //  scheduledWorks.start();
     }
 
 }
